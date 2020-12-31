@@ -1,0 +1,16 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:defaultValue="30"
+        android:entries="@array/pref_sync_frequency_titles"
+        android:entryValues="@array/pref_sync_frequency_values"
+        android:key="sync_frequency"
+        android:persistent="true"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_sync_frequency" />
+
+    <EditTextPreference android:title="@string/pref_sync_ccu_name"
+        android:key="sync_ccu_name"
+        android:defaultValue="homematic-ccu2"
+        android:persistent="true"/>
+</PreferenceScreen>

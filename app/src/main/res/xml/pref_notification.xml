@@ -1,0 +1,11 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- A 'parent' preference, which enables/disables child preferences (below)
+         when checked/unchecked. -->
+    <SwitchPreference
+        android:defaultValue="true"
+        android:persistent="true"
+        android:key="notifications_show_reload_popups"
+        android:title="@string/pref_title_reload_notifications" />
+
+</PreferenceScreen>

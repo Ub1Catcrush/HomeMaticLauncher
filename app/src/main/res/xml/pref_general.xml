@@ -1,0 +1,27 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:persistent="true"
+        android:key="test_switch"
+        android:summary="@string/pref_description_test_mode"
+        android:title="@string/pref_title_test_mode" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:persistent="false"
+        android:key="disable_display_switch"
+        android:summary="@string/pref_description_disable_display"
+        android:title="@string/pref_title_disable_display" />
+
+    <ListPreference
+        android:defaultValue="120"
+        android:entries="@array/pref_disable_display_period_titles"
+        android:entryValues="@array/pref_disable_display_period_values"
+        android:key="disable_display_period"
+        android:persistent="true"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_disable_display_period" />
+
+</PreferenceScreen>

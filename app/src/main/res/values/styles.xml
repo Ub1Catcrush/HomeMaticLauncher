@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:actionButtonStyle">@style/AppTheme.ActionButtonStyle</item>
+        <item name="android:actionOverflowButtonStyle">@style/AppTheme.OverflowActionButtonStyle</item>
+        <item name="actionButtonStyle">@style/AppTheme.ActionButtonStyle</item>
+        <item name="actionOverflowButtonStyle">@style/AppTheme.OverflowActionButtonStyle</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:actionButtonStyle">@style/AppTheme.ActionButtonStyle</item>
+        <item name="android:actionOverflowButtonStyle">@style/AppTheme.OverflowActionButtonStyle</item>
+        <item name="actionButtonStyle">@style/AppTheme.ActionButtonStyle</item>
+        <item name="actionOverflowButtonStyle">@style/AppTheme.OverflowActionButtonStyle</item>
+    </style>
+
+    <style name="AppTheme.ActionButtonStyle" parent="Widget.AppCompat.ActionButton">
+        <item name="android:minWidth">18dp</item>
+        <item name="android:maxWidth">18dp</item>
+        <item name="android:width">18dp</item>
+        <item name="android:minHeight">18dp</item>
+        <item name="android:maxHeight">18dp</item>
+        <item name="android:height">18dp</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="android:tint">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.OverflowActionButtonStyle" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:minWidth">18dp</item>
+        <item name="android:maxWidth">18dp</item>
+        <item name="android:width">18dp</item>
+        <item name="android:minHeight">18dp</item>
+        <item name="android:maxHeight">18dp</item>
+        <item name="android:height">18dp</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="android:tint">@android:color/white</item>
+        <item name="android:src">@drawable/settings</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>
